@@ -1,0 +1,23 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.timeline-container {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+  }
+  
+  .participant-row {
+    position: relative;
+  }
+  
+  .event-marker {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+  }
+  body{
+    background-color: rgb(25, 23, 23);
+  }
+  
